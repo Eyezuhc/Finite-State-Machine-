@@ -1,0 +1,132 @@
+$date
+	Wed Dec 11 14:17:18 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module thunderbird_tb $end
+$var wire 3 ! R [2:0] $end
+$var wire 3 " L [2:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ left $end
+$var reg 1 % reset $end
+$var reg 1 & right $end
+$scope module fsm $end
+$var wire 1 # clk $end
+$var wire 1 $ left $end
+$var wire 1 % reset $end
+$var wire 1 & right $end
+$var parameter 4 ' LA $end
+$var parameter 4 ( LABC_RABC $end
+$var parameter 4 ) LAB_RAB $end
+$var parameter 4 * LA_RA $end
+$var parameter 4 + LB $end
+$var parameter 4 , LC $end
+$var parameter 4 - Off $end
+$var parameter 4 . RA $end
+$var parameter 4 / RB $end
+$var parameter 4 0 RC $end
+$var reg 3 1 L [2:0] $end
+$var reg 3 2 R [2:0] $end
+$var reg 3 3 state_n [2:0] $end
+$var reg 3 4 state_p [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b110 0
+b101 /
+b100 .
+b0 -
+b11 ,
+b10 +
+b111 *
+b1000 )
+b1001 (
+b1 '
+$end
+#0
+$dumpvars
+bx 4
+b0 3
+bx 2
+bx 1
+0&
+0%
+0$
+0#
+bx "
+bx !
+$end
+#10
+b0 !
+b0 2
+b0 "
+b0 1
+b1 3
+b0 4
+1$
+1#
+#20
+0#
+#30
+b1 "
+b1 1
+b10 3
+b1 4
+1#
+#40
+0#
+#50
+b10 "
+b10 1
+b11 3
+b10 4
+1#
+#60
+0#
+0$
+#70
+b100 "
+b100 1
+b0 3
+b11 4
+1#
+#80
+0#
+#90
+b0 "
+b0 1
+b0 4
+1#
+#100
+b1 3
+0#
+1$
+#110
+b1 "
+b1 1
+b10 3
+b1 4
+1#
+#120
+0#
+#130
+b10 "
+b10 1
+b11 3
+b10 4
+1#
+#140
+0#
+#150
+b100 "
+b100 1
+b0 3
+b11 4
+1#
+0$
